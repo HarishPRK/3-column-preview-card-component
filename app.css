@@ -77,7 +77,7 @@ button:hover {
 	color: hsl(179, 100%, 13%);
 }
 
-@media (max-width: 376px) {
+@media (max-width: 375px) and (min-width: 10px) {
 	.main-content {
 		display: flex;
 		flex-direction: column;
